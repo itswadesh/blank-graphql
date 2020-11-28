@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src"
+  },
+  // test is included in tsconfig.json to resolve @types/jest in the IDE
+  "exclude": ["src/**/__tests__", "src/**/__fixtures__", "test"]
+}

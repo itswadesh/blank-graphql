@@ -1,0 +1,11 @@
+dist
+
+node_modules
+
+.dockerignore
+
+Dockerfile
+
+*.log
+
+readme.md

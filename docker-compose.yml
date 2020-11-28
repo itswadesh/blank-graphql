@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cache:
+    image: redis:alpine
+    container_name: cache-gro
+    ports:
+      - '6379:6379'
+    command: ['--requirepass "secret"']
